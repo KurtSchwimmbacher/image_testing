@@ -1,4 +1,57 @@
-#div1{width:400px;height:100px;background:red;}
-#div2{position:relative;width:400px;height:100px;background:yellow;z-index:1;}
-#image{width:40px;height:40px;background:green;position:relative;
-margin-left:180px;margin-top:-20px;margin-bottom:-20px;z-index:2}
+.btn{
+    width: 200px;
+    height: 53px;
+    border: 2px solid #2b2b2b;
+    padding-top: 5px;
+    padding-left: 5px;
+    border-radius: 53px;
+    padding-bottom: 1px;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.btn .icon{
+    width: 50px;
+    height: 35px;
+    background-color: #2b2b2b;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 15px;
+    color: white;
+    font-weight: bold;
+    float: left;
+}
+
+.btn .text{
+    margin-top: 15px;
+    font-weight: bold;
+    float: left;
+    margin-left: 20px;
+}
+
+.social-media{
+    width: 500px;
+    height: 35px;
+    margin-top: 20px;
+}
+
+.social{
+    width: 40px;
+    height: 28px;
+    float: left;
+    border: 2px solid #2b2b2b;
+    margin: 5px;
+    text-align: center;
+    padding-top: 12px;
+    font-weight: bold;
+    color: #2b2b2b;
+    border-radius: 50%;
+}
+
+.social:hover{
+    background-color: #2b2b2b;
+    color: white;
+    cursor: pointer;
+}
