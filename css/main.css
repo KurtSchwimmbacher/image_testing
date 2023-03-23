@@ -1,0 +1,4 @@
+#div1{width:400px;height:100px;background:red;}
+#div2{position:relative;width:400px;height:100px;background:yellow;z-index:1;}
+#image{width:40px;height:40px;background:green;position:relative;
+margin-left:180px;margin-top:-20px;margin-bottom:-20px;z-index:2}
